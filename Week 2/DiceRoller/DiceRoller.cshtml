@@ -1,0 +1,36 @@
+﻿@page
+@model DiceRollerAssignment2.Pages.DiceRollerModel
+@{
+    ViewData["Title"] = "Home page";
+    int randomNumber = new Random().Next(1, 7); //GENERATES NUMBER BETWEEN 1 and 6
+    int winningNumber = new Random().Next(1, 7); // GENERATES A NUMBER BETWEEN 1 and 6 FOR WINNING NUMBER
+    int farOffNumber;
+    if (winningNumber > randomNumber)
+    {
+        farOffNumber = winningNumber - randomNumber;
+    }
+    else
+    {
+        farOffNumber = randomNumber - winningNumber;
+    }
+}
+
+<div class="card" style="width: auto">
+    <div class="card-body">
+        @if (randomNumber == winningNumber)
+        {
+            <h4>Congratulatons!It's a Win!</h4>
+        }
+        else
+        {
+            <h4>I am sorry! Please roll again. Better luck next time!</h4>
+        }
+    </div>
+
+    <ul class="list-group list-group-flush">
+        <li class="list-group-item">Random number generated is: @randomNumber</li>
+        <li class="list-group-item">Winning number generated is: @winningNumber</li>
+        <li class="list-group-item">Winning number is @farOffNumber off from Random number</li>
+    </ul>
+
+</div>

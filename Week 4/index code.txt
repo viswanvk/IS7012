@@ -1,0 +1,89 @@
+@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<div class="container" style="background-color: cornflowerblue">
+    <h1 class="display-4" style="text-align: center">Viswanvk Champions Recruiting Agency</h1>
+    <p style="text-align: center"><em>Apply today for your dream job and land in the place you desired the most!! Welcome to Viswanvk Chanpions!</em></p>
+    <br />
+</div>
+<div class="container">
+    <div class="row justify-content-between">
+        <div class="col-4">
+            <div class="card">
+                <div class="card-body">
+                    <h3>Contact us</h3>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">
+                            Address: <br />
+                            <address>
+                                Lindner College of Business
+                                <br />Ohio, Cincinnati
+                                <br /> 45220
+                            </address>
+                        </li>
+                        <li class="list-group-item">Phone: +1 (000)-111-0000</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-4">
+            <div class="card">
+                <div class="card-body">
+                    <h3>Services Provided</h3>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">Resume verification</li>
+                        <li class="list-group-item">Career Counselling</li>
+                        <li class="list-group-item">Job search</li>
+                        <li class="list-group-item">Salary negotiation</li>
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div class="container">
+        <p></p>
+        <h3><em>Looking for industry-specific job? Tell us what you want and we are here to help you!</em></h3>
+        <p>Viswanvk Chanpions is a top recruiting agency for all professionals in Software, Hardware,m Electricals and Marketing agencies. It has connections world wide with top most firms and companies</p>
+
+    </div>
+    <div class="container">
+        <p></p>
+        <div class="card">
+            <div class=" card-body">
+                <h3><em>Testimonials</em></h3>
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item">
+                        <p>Viswanvk has really helped me get my dream Job and I am now a marketing exectutive because of this company.</p>
+                        <p style="text-align:right">- Neville Longbottom</p>
+
+                    </li>
+                    <li class="list-group-item">
+                        <p>From resume building to offer letter, this company stayed with me at every point of time! I really owe it to Viswanvk for such an amazing support!</p>
+                        <p style="text-align:right">- Lucy Toons</p>
+
+                    </li>
+
+                    <li class="list-group-item">
+                        <p>The company's dedication and investment in my career has really impacted my career path and I would recommend this to any professional out there.</p>
+                        <p style="text-align:right">- Albus Dumbledore</p>
+
+                    </li>
+                </ul>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <p></p>
+        <h3><em>Want to apply?</em></h3>
+        <p>Apply here to upgrade your next step i your professional journey! Contact us in case you have any concerns! Please feel free to drop by and let us know your journey! We are all ready and backed up to help you in your journey.</p>
+
+    </div>
+</div>
